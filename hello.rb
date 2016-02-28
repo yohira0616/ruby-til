@@ -1,1 +1,1 @@
-puts "Hello,Ruby!"
+puts "こんにちは,Ruby!"
