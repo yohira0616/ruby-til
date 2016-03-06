@@ -17,5 +17,6 @@ str="Just Another Ruby Newbie"
 p str.count_word
 
 #インスタンスに対してメソッドを追加するという暴挙
+#メンテ不能になるので封印推奨
 str.extend(BlackMagic)
 str.doBlackMagic
