@@ -1,28 +1,7 @@
+require './lib/calculator'
+require './lib/fizz_buzz'
 require 'minitest/autorun'
 
-
-# 暫定的にテストクラスをここに書く
-class Calculator
-
-  def add(a, b)
-    a + b
-  end
-end
-
-class FizzBuzz
-
-  def fizzbuzz(n)
-    if n % 15 == 0
-      'FizzBuzz'
-    elsif n % 5 == 0
-      'Buzz'
-    elsif n % 3 == 0
-      'Fizz'
-    else
-      n
-    end
-  end
-end
 
 class CalculatorTest < MiniTest::Test
 
@@ -44,3 +23,4 @@ class FizzBuzzTest < MiniTest::Test
   end
 
 end
+
