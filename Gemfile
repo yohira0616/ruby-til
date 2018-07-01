@@ -10,3 +10,5 @@ gem "rdbi"
 gem "rdbi-driver-postgresql"
 gem "sequel"
 gem "rspec"
+gem "pry"
+
