@@ -12,6 +12,8 @@ GEM
     epoxy (0.3.1)
     equalizer (0.0.11)
     eventmachine (1.2.7)
+    faraday (0.15.3)
+      multipart-post (>= 1.2, < 3)
     http (3.3.0)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
@@ -87,6 +89,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  faraday
   pg
   pry
   rdbi
@@ -98,4 +101,4 @@ DEPENDENCIES
   twitter
 
 BUNDLED WITH
-   1.16.2
+   1.16.5

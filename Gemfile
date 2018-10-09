@@ -12,3 +12,4 @@ gem "sequel"
 gem "rspec"
 gem "pry"
 
+gem "faraday"
