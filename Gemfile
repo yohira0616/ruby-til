@@ -13,3 +13,7 @@ gem "rspec"
 gem "pry"
 
 gem "faraday"
+
+gem "nokogiri", "~> 1.8"
+
+gem "selenium-webdriver", "~> 3.14"
